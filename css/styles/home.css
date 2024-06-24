@@ -1,0 +1,58 @@
+.about-us-section {
+  display: grid;
+  grid-template-areas:
+    "cover"
+    "text";
+
+  border-radius: 1.6rem;
+  margin-top: 3.6rem;
+}
+
+.about-us-cover {
+  grid-area: cover;
+  height: 30rem;
+
+  position: relative;
+  margin-bottom: 2.4rem;
+}
+
+.about-us-title {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-45%, -50%);
+
+  font-weight: 700;
+  font-size: 5rem;
+  text-align: center;
+  text-decoration: underline;
+  text-shadow: -1px 1px 0 #000;
+
+  color: #ffffff;
+}
+
+.bg-image {
+  width: 100%;
+  max-height: 30rem;
+  object-fit: cover;
+  object-position: center;
+
+  margin-bottom: 2.4rem;
+  border-radius: 0.8rem;
+}
+
+.about-us-text-container {
+  grid-area: text;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.about-us-text {
+  font-size: 1.6rem;
+  color: #000;
+}
+
+@media screen and (min-width: 768px) {
+}
